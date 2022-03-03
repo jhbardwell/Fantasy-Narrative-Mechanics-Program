@@ -1,2 +1,2 @@
-# Fantasy-Narrative-Mechanics-Program
+# Fantasy-Narrative-Program
 An experiment in fantasy narrative mechanics
