@@ -1,2 +1,2 @@
 # Fantasy-Narrative-Program
-An experiment in fantasy narrative mechanics
+An experiment in dynamic narrative decision trees
