@@ -16,7 +16,7 @@ The temporal mechanic is something of a role reversal from most games that opera
 # ![Users](/images/users.png)Users
 Do you enjoy narrative based games, rollicking adventures, and low fantasy epics? Did you skip through those old choose your own adventure books to try and find the best elements to craft your own story from all the pieces strewn through those dog-eared pages? You ... do like dragons ... don't you?
 
-Does your heart harken back to old school dungeons and dragons roguelikes such as Gauntlet and WazHack? Do you like your fantasy games with an actual challenge linked to a strong time mechanic a la Spelunky? Do you want to feel like your decisions matter to the larger text based narrative like Sorcery? Do your hectic schedule appreciate a satisfying, short play cycle? Then check out the "Five Minute Fantasy" demo! Given the current dearth of content, it's more like "Five Second Fantasy," but please give it a whirl regerdless.
+Does your heart harken back to old school dungeons and dragons roguelikes such as Gauntlet and WazHack? Do you like your fantasy games with an actual challenge linked to a strong time mechanic a la Spelunky? Do you want to feel like your decisions matter to the larger text based narrative like Sorcery? Does your hectic daily schedule appreciate a satisfying, short play cycle? Then check out the "Five Minute Fantasy" demo! Given the current dearth of content, it's more like "Five Second Fantasy," but please give it a whirl regerdless.
 
 # ![Demo](/images/demo.png)Demo
 Do you wish to see the current project demonstration? Experience it for yourself [here](https://jhbardwell.github.io/project-fiveminutefantasy/index.html).
