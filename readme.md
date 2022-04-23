@@ -10,7 +10,7 @@ How far can you get in five minutes?
 # ![About](/images/about.png)About 
 This proof-of-concept narrative adventure rogue-lite project serves as a testbed to explore several ideas regarding narrative design graph theory, modern choose your own adventure game mechanics, random element interjection, player agency and consequence, and variable win state conditions. The core conceit is that after being thrown into a low fantasy setting, every choice the player makes opens and closes different options for each subsequent encounter and swiftly cuts down the clock. After making "five minutes" worth of decisions, the game ends whether a classical win condition has been achieved or not.
  
-The temporal mechanic is something of a role reversal from most games that operate within set time limits. The player is not in a race to reach a finish line, but rather to experience as much as they can before the curtain falls. It's about the expanse of different stories unraveling with each new decision, not the final destination. And keeping the scope narrow allows for a rich, deeply layered player experience with high replay value.
+The temporal mechanic is something of a role reversal from most games that operate within set time limits. The player is not in a race to reach a finish line, but rather to experience as much as they can before the curtain falls. It's about the expanse of different stories unraveling with each new decision, not the final destination. And keeping the scope narrow allows for a rich, deeply layered experience with high replay value.
 
 
 # ![Users](/images/users.png)Users
