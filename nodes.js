@@ -37,12 +37,13 @@ const sceneNodes = [
     {
       id: 2,
       //background:ForestIdyll,
-      //foreground:BluevialBroken,
-      
+      //midground:BluevialBroken,
+      //foreground:WaterbladeNeutral
       text: "You stumble and drop your vial. The glass shatters in a blue haze of darkness and dust. When the smoke clears, you see a silver hilt dagger with an almost translucent blade lying on the ground.",
       
       options: [
         {
+          //foreground:WaterbladeGood
           text: `Take up this wonderous new weapon. The weapon is delightfully cool and wet to the touch.`,
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "blue vial"),
@@ -57,6 +58,7 @@ const sceneNodes = [
           nextScene: [11, 12, 13, 14]
         },
         {
+          //foreground:WaterbladeBad
           text: `That weird weapon is all cold and slimy. Leave the fishy thing alone!`,
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "blue vial"),
@@ -113,13 +115,13 @@ const sceneNodes = [
     {
       id: 4,
       //background:ForestIdyll,
-      //foreground:BluevialRaised,
+      
       setText: (stateQuest, stateItem) =>
         `You stumble, but catch yourself. Then you stare at the ${stateItem.vials[0]} still clutched white knuckled in your hand.`,
       
         options: [
         {
-          //foreground:ForestIdyll,
+          //foreground:BluevialRaised,
           text: "Better put this treaure somewhere safe. It may be useful later.",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "blue vial"),
@@ -150,13 +152,14 @@ const sceneNodes = [
     {
       id: 5,
       //background:ForestIdyll,
-      //foreground:RedvialBroken,
-      
+      //midground:RedvialBroken,
+      //foreground:FirebladeNeutral
       setText: (stateQuest, stateItem) =>
         `You stumble. The ${stateItem.vials[0]} drops on a patch of grass. It shatters in a choking brimstone haze of darkness and dust. When the smoke clears, you see a silver hilt dagger with a shimmering fire kissed blade.`,
       
         options: [
         {
+          //foreground:FirebladeGood
           text: "Grab this awesome new weapon before it turns the grass to black ashes.",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "red vial"),
@@ -171,6 +174,7 @@ const sceneNodes = [
           nextScene: [11, 12, 13, 14]
         },
         {
+          //foreground:FirebladeBad
           text: `What fool would wield a weapon? Leave it.`,
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "red vial"),
@@ -188,13 +192,14 @@ const sceneNodes = [
     {
       id: 6,
       //background:ForestIdyll,
-      //foreground:RedvialBroken,
-      
+      //midground:RedvialBroken,
+      //foreground:FiredragonNeutral
       setText: (stateQuest, stateItem) =>
         `The ${stateItem.vials[0]} turns to warm sand in your hand. From the glittering motes spilling between your fingers arises a tiny dragon with garnet wings.  A pair of smoldering black eyes peer into yours. It slowly nibbles one of your fingers.`,
   
       options: [
         {
+           //foreground:FiredragonHappy
           text: "Cradle that beast in your arms. Who could deny such a trusting gaze?",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "red vial"),
@@ -209,6 +214,7 @@ const sceneNodes = [
           nextScene: [11, 12, 13, 14]
         },
         {
+           //foreground:FiredragonAngry
           text: "Did that wretched creature just bite you? Fling it hard, and fling it fast.",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "red vial"),
@@ -226,13 +232,13 @@ const sceneNodes = [
     {
       id: 7,
       //background:ForestIdyll,
-      //foreground:RedvialBroken,
      
       setText: (stateQuest, stateItem) =>
         `You stumble, but catch yourself. Then you stare at the ${stateItem.vials[0]} still clutched white knuckled in your hand.`,
   
       options: [
         {
+          //foreground:RedvialRaised,
           text: "Better put such treasure in a safe place. Might be useful later.",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "red vial"),
@@ -246,6 +252,7 @@ const sceneNodes = [
           nextScene: [11, 12, 13, 14]
         },
         {
+          //foreground:RedvialDropped,
           text: "What use the rubbish of some poor mage? Toss it.",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "red vial"),
@@ -262,13 +269,14 @@ const sceneNodes = [
     {
       id: 8,
       //background:ForestIdyll,
-      //foreground:GreenvialBroken,
-      
+      //midground:GreenvialBroken,
+      //foreground:VinebladeNeutral
       setText: (stateQuest, stateItem) =>
         `You stumble. The ${stateItem.vials[0]} slips from your grasp and shatters on the ground. A fragrant haze of smoke and dust wafts in the breeze. When the smoke vanishes, you see a silver hilt dagger with a blade of sinuous twisted vines.`,
   
       options: [
         {
+          //foreground:VinebladeGood
           text: "Better grab that strange new weapon before those vines take root in the dirt.",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "green vial"),
@@ -283,6 +291,7 @@ const sceneNodes = [
           nextScene: [11, 12, 13, 14]
         },
         {
+          //foreground:VinebladeBad
           text: "Are you a fighter or a forester? Who needs such strange weaponry?",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "green vial"),
@@ -299,13 +308,14 @@ const sceneNodes = [
     {
       id: 9,
       //background:ForestIdyll,
-      //foreground:GreenvialBroken,
-     
+      //midground:GreenvialBroken,
+     //foreground:VinedragonNeutral
       setText: (stateQuest, stateItem) =>
         `The ${stateItem.vials[0]} transforms into a small bush in your hand. Then the bush uncurls. The leaves are the ruffled scales and rough branches the dark limbs of a tiny dragon.  A pair of bright emerald eyes peer into yours. It wraps its tail firmly around your wrist.`,
   
       options: [
         {
+          //foreground:VinedragonHappy
           text: "You try to save your poor wrist and fail. Ah, well. Why dislodge such a ... contented creature?",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "green vial"),
@@ -320,6 +330,7 @@ const sceneNodes = [
           nextScene: [11, 12, 13, 14]
         },
         {
+          //foreground:VinedragonAngry
           text: "By the five gods, if you cannot shake this creature loose, you will cut it loose. Where did you put your dagger?",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "green vial"),
@@ -337,13 +348,13 @@ const sceneNodes = [
     {
       id: 10,
      //background:ForestIdyll,
-      //foreground:GreenvialRaised,
       
       setText: (stateQuest, stateItem) =>
         `You stumble, but catch yourself. Then you stare at the ${stateItem.vials} still clutched white knuckled in your hand.`,
 
       options: [
         {
+          //foreground:GreenvialRaised,
           text: "Better keep it safe. Could be worth something.",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "green vial"),
@@ -357,6 +368,7 @@ const sceneNodes = [
           nextScene: [11, 12, 13, 14]
         },
         {
+          //foreground:GreenvialDropped,
           text: "Who wants an old bottle with green goo?",
           requiredStateItem: (currentStateItem) =>
             checkItems(currentStateItem, "green vial"),
@@ -373,7 +385,7 @@ const sceneNodes = [
     {
       id: 11,
       //background:ForestRobbery,
-      //foreground:RobberAttack,
+      //midground:RobberAttack,
 
       text: "A hooded archer ambushes you from behind a tree with a knocked bow aimed at your heart.",
 
@@ -412,7 +424,7 @@ const sceneNodes = [
     {
       id:12,
       //background:ForestRobbery,
-      //foreground:RobberSolicit,
+      //midground:RobberSolicit,
 
       text: "A smiling hooded man emerges from the trees, palms raised but with weapons close at hand. He claims to be ... collecting for charity.",
       
@@ -426,7 +438,7 @@ const sceneNodes = [
     {
       id:13,
       //background:ForestRobbery,
-      //foreground:RobberSolicit,
+      //midground:RobberSolicit,
 
       text: "A grinning man in a green hood emerges from the trees, palms raised but with weapons close at hand. He claims to be ... collecting for charity.",
       
@@ -440,7 +452,7 @@ const sceneNodes = [
     {
       id:14,
       //background:ForestRobbery,
-      //foreground:RobberDuel,
+      //midground:RobberDuel,
 
       text: "A hooded man emerges from the trees, throws aside a large bow, and brandishes a dagger.\n'You just burgled me best mate,' he says with a cheeky grin. 'I demand a duel.'",
       
@@ -454,7 +466,7 @@ const sceneNodes = [
     {
       id: 15,
       //background:ForestRobbery,
-      //foreground:RobberAfraid,
+      //midground:RobberAfraid,
 
       text: "The thief screams, drops his weapon, and flees back into the forest. Huzzah!",
 
@@ -468,7 +480,7 @@ const sceneNodes = [
     {
       id: 16,
       //background:ForestRobbery,
-      //foreground:RobberSolicit,
+      //midground:RobberSolicit,
 
       text: "The man sheathes his weapons. He holds up his hands with a placating gesture.",
 
@@ -483,7 +495,7 @@ const sceneNodes = [
     {
       id: 17,
       //background:ForestRobbery,
-      //foreground:RobberButcher,
+      //midground:RobberButcher,
       
       text: "Your body slowly cools. The thief whistles a merry tune whilst pillaging your corpse.",
 
