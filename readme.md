@@ -1,6 +1,7 @@
 ![Five Minute Fantasy Project Read Me](/images/header.png)
 
 Dragons, danger, gold and glory...every game a different story. 
+
 How far can you get in five minutes?
 
 [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/jhbardwell/jhbardwell.github.io)
