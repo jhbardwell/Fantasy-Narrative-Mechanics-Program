@@ -19,13 +19,13 @@ Do you enjoy narrative based games, rollicking adventures, and low fantasy epics
 Does your heart harken back to old school dungeons and dragons roguelikes such as Gauntlet and WazHack? Do you like your fantasy games with an actual challenge linked to a strong time mechanic a la Spelunky? Do you want to feel like your decisions matter to the larger text based narrative like Sorcery? Do your hectic schedule appreciate a satisfying, short play cycle? Then check out the "Five Minute Fantasy" demo! Given the current dearth of content, it's more like "Five Second Fantasy," but please give it a whirl regerdless.
 
 # ![Demo](/images/demo.png)Demo
-Do you wish to see the current project demonstration? Experience it for yourself at https:jhbardwell.github.io/project-fiveminutefantasy/index.html
+Do you wish to see the current project demonstration? Experience it for yourself [here](https://jhbardwell.github.io/project-fiveminutefantasy/index.html).
 
 # ![Install](/images/install.png)Install
 Download the game here on GitHub
 
 # ![Design](/images/design.png)Design
-Are you craving all those nitty gritty details? Go to https:jhbardwell.github.io/project-fiveminutefantasy/designdoc.html which documents the goals, design rationale, implementation methods, system architecture, and development schedule of this project.
+Are you craving all those nitty gritty details? Go [here](https://jhbardwell.github.io/project-fiveminutefantasy/designdoc.html) to see which documents the goals, design rationale, implementation methods, system architecture, and development schedule of this project.
 
 # ![Roadmap](/images/roadmap.png)Roadmap
 ## Stage 1 - Plan
