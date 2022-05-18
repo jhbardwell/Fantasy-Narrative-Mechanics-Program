@@ -1,4 +1,4 @@
-![Five Minute Fantasy Project Read Me](/project-fiveminutefantasy/images/header.png)
+![Five Minute Fantasy Project Read Me](/images/header.png)
 
 Dragons, danger, gold and glory...every game a different story. 
 How far can you get in five minutes?
@@ -7,7 +7,7 @@ How far can you get in five minutes?
 
 [About](#About) | [Users](#Users) | [Demo](#Demo) | [Install](#Install) | [Design](#Design) | [Roadmap](#Roadmap) | [License](#License) | [People](#People) | [Newsletter](#Newsletter) | [Contact](#Contact)
 
-# ![About](/project-fiveminutefantasy/images/about.png)About 
+# ![About](/images/about.png)About 
 This proof-of-concept fantasy narrative adventure project serves as a testbed to explore several ideas I have regarding narrative design graph theory, modern choose your own adventure game mechanics, random element interjection, player agency and consequence, and variable win state conditions. The core conceit is that every choice you make opens, closes, or fails to effect different options for each subsequent encounter as you navigate a dangerous world of dragons, death, and intrigue. After five minutes&mdash;assuming the Black Tower doesn't claim your soul first&mdash;the game ends, tantalizing you with both a list of glorious accomplishments and every opportunity you missed...this time.
  
 The time mechanic is something of a role reversal from most games that operate within set temporal limits. You are not in a race to reach a finish line, but rather to experience as much as you can before the curtain falls. It's about the expanse of different stories unraveling with each new decision, not the final destination. And keeping the scope narrow allows for a rich, deeply layered player experience with high replay value. This game takes place in my Metal vs Magic universe, but it is a fable, a fairytale: a fantasy within a fantasy if you will.
@@ -15,21 +15,21 @@ The time mechanic is something of a role reversal from most games that operate w
 The nature of that fantasy is entirely up to you. Create a tale to suit your taste. You are the avatar and the story-teller. So, what sort of tales will you tell?
 
 
-# ![Users](/project-fiveminutefantasy/images/users.png)Users
+# ![Users](/images/users.png)Users
 Do you enjoy narrative based games, rollicking adventures, and low fantasy epics? Did you skip through those old choose your own adventure books to try and find the best elements to craft your own story from all the pieces strewn through those dog-eared pages? You ... do like dragons ... don't you?
 
 Does your heart harken back to old school dungeons and dragons roguelikes such as Gauntlet and WazHack? Do you like your fantasy games with an actual challenge linked to a strong time mechanic a la Spelunky? Do you want to feel like your decisions matter to the larger text based narrative like Sorcery? Does your hectic schedule appreciate a satisfying, short play cycle? Then check out the "Five Minute Fantasy" demo!
 
-# ![Demo](/project-fiveminutefantasy/images/demo.png)Demo
+# ![Demo](/images/demo.png)Demo
 Do you wish to see the current project demonstration? Experience it for yourself [here](https://jhbardwell.github.io/project-fiveminutefantasy/index.html).
 
-# ![Install](/project-fiveminutefantasy/images/install.png)Install
+# ![Install](/images/install.png)Install
 Download the game here on GitHub
 
-# ![Design](/project-fiveminutefantasy/images/design.png)Design
+# ![Design](/images/design.png)Design
 Are you craving all those nitty gritty details? Go [here](https://jhbardwell.github.io/project-fiveminutefantasy/designdoc.html) to explore the goals, design rationale, implementation methods, system architecture, and development schedule of this project.
 
-# ![Roadmap](/project-fiveminutefantasy/images/roadmap.png)Roadmap
+# ![Roadmap](/images/roadmap.png)Roadmap
 ## Stage 1 - Plan
 - [X] Define problem scope
 - [X] Define target user
@@ -97,7 +97,7 @@ Are you craving all those nitty gritty details? Go [here](https://jhbardwell.git
 - [ ] Feature game mechanics on GameMaker Markup / No Red Pens
 - [ ] Start a kickstarter campaign
 
-# ![Bugs](/project-fiveminutefantasy/images/bugs.png)Bugs
+# ![Bugs](/images/bugs.png)Bugs
 
 ## Current
 - [ ] Fix glitch so buttons are not preselected when node scene loads
@@ -118,10 +118,10 @@ Are you craving all those nitty gritty details? Go [here](https://jhbardwell.git
 
 Please report all additional bugs you find here
 
-# ![License](/project-fiveminutefantasy/images/license.png)License
+# ![License](/images/license.png)License
 
 
-# ![People](/project-fiveminutefantasy/images/people.png)People
+# ![People](/images/people.png)People
 ## Contributors
 - Design: [jhbardwell](https://github.com/jhbardwell)
 - Writing: [jhbardwell](https://github.com/jhbardwell)
@@ -131,8 +131,8 @@ Please report all additional bugs you find here
 ## Investors
 If this project piques your interest, you can invest here
 
-# ![Newsletter](/project-fiveminutefantasy/images/newsletter.png)Newsletter
+# ![Newsletter](/images/newsletter.png)Newsletter
 Do you want all the latest about ongoing app developments and exciting new projects? Then sign up [here](https://jeffreybardwell.com/sendy/subscription?f=6x4w4Uh71014jJOESdfio6xcewae763pRAzSfj7irZuWdB8L8892O9A892xV6qp892juL1LRkvjEzZEC7oYmFBh5HYNmOw).
 
-# ![Contact](/project-fiveminutefantasy/images/contact.png)Contact
+# ![Contact](/images/contact.png)Contact
 Please address all questions, comments, and concerns [here](jhbardwell@gmail.com)
