@@ -33,7 +33,7 @@ Are you craving all those nitty gritty details? Go [here](https://jhbardwell.git
 ## Stage 1 - Plan
 - [X] Define problem scope
 - [X] Define target user
-- [ ] Write project documentation
+- [X] Write project documentation
 
 ## Stage 2 - Prototype
 ### Minimum Features
